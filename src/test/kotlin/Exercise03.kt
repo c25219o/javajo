@@ -17,6 +17,7 @@ class Exercise03 {
      * * それ以外は「何かがおかしい」
      *
      * ヒント: Javaと同じく比較演算子だけでなく && や || が使えます。
+     * おまけ: return文を1回だけ使って書いてみる。
      */
     fun result(score: Int): String {
         TODO()
