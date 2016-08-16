@@ -11,12 +11,10 @@ class Exercise06 {
     /**
      * 「Intを引数として取り、その倍の数を返すような関数」を返します。
      *
-     * ヒント: この関数はあくまで、関数を返すだけで、実際の倍にするような計算は行いません。
+     * ヒント: この関数はあくまで、関数を返すだけで、倍にするような計算は行いません。
      * ヒント: 別途、独自に関数を定義してもかまいません。
      */
-    fun getDouble(): (Int) -> Int {
-        TODO()
-    }
+    fun getDouble(): (Int) -> Int = TODO()
 
     @Theory
     fun test(fixture: Fixture) {
